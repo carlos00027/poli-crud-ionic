@@ -2,7 +2,7 @@
   <IonPage>
     <ion-header :translucent="true">
       <ion-toolbar>
-        <ion-title>Formulario para crear un personaje</ion-title>
+        <ion-title>Formulario personaje</ion-title>
       </ion-toolbar>
     </ion-header>
     <IonContent>
