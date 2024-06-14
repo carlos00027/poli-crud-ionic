@@ -28,7 +28,11 @@ const onClickGuardar = async ():Promise<void>=>{
     return;
   }
 
-  await launchMessage('personaje creado')
+  if(isCreate.value){
+    await launchMessage('personaje creado')
+  }else{
+    await launchMessage('personaje actualizado')
+  }
   await router.back()
 }
 const route = useRoute()
